@@ -52,7 +52,7 @@ const Footer = () => {
           <p className="text-white font-bold uppercase tracking-widest text-[8px] md:text-[10px]">Ecosystem Links</p>
           <div className="flex flex-wrap gap-4 text-[9px] md:text-[10px] md:justify-end">
             <a href="https://github.com/manasvisharma2231" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors decoration-1">GitHub</a>
-            <a href="https://linkedin.com/in/manasvi-sharma-iiitl" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors decoration-1">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/manasvi-sharma-a29901366/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors decoration-1">LinkedIn</a>
             <a href="https://www.instagram.com/manasvv._.iii/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors decoration-1">Instagram</a>
             <a href="https://x.com/mani336851" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors decoration-1">Twitter</a>
           </div>
