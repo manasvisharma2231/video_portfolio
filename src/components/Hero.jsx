@@ -73,7 +73,7 @@ const Hero = ({ isAppLoading }) => {
         muted={isMuted}
         playsInline
         onEnded={() => setIsPlaying(false)}
-        className="absolute inset-0 w-full h-full object-cover object-[75%_30%] md:object-[65%_center]"
+        className="absolute inset-0 w-full h-full object-cover object-[78%_30%] md:object-[68%_center]"
       >
         <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
