@@ -68,19 +68,16 @@ const Hero = ({ isAppLoading }) => {
 
   return (
     <section id="home" className="relative w-full h-[100dvh] min-h-[100svh] overflow-hidden bg-black">
-      {/* Background Video — flex wrapper keeps the reel centered on mobile viewports */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <video
-          ref={videoRef}
-          muted={isMuted}
-          playsInline
-          onEnded={() => setIsPlaying(false)}
-          className="w-full h-full object-contain object-center md:object-cover md:object-center"
-        >
-          <source src={heroVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+      <video
+        ref={videoRef}
+        muted={isMuted}
+        playsInline
+        onEnded={() => setIsPlaying(false)}
+        className="absolute top-1/2 left-1/2 min-h-full min-w-full w-auto h-auto -translate-x-1/2 -translate-y-1/2 object-cover object-center"
+      >
+        <source src={heroVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Content Container */}
       <div className="absolute inset-0 z-20 px-6 pb-20 md:pb-[8%] md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row justify-end md:justify-between items-start md:items-end text-left w-full">
